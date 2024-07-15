@@ -1,0 +1,17 @@
+.AdminScreen {
+  padding: 70px 0;
+  .wrap {
+    height: 80vh;
+    @include flexCenter;
+
+    form {
+      background-color: $color_o4;
+      width: 300px;
+      @include flexCenter;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  }
+}
